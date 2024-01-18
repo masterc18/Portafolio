@@ -75,7 +75,7 @@ body {
     0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1),
     0 0 180px rgba(38, 104, 127, 1);
 }
-.biography h1,
+.biography h1,h2,
 p {
   position: relative;
   display: flex;
