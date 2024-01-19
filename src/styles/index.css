@@ -107,6 +107,38 @@ p {
   animation: neonefecto 1s infinite;
 }
 
+.skills {
+  display: grid;
+  justify-content: center;
+}
+
+.skills h1 {
+  font-size: 3rem;
+  display: grid;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+/*Arreglar el fondo de los icons y agregar animacion nenon*/
+
+.icons i {
+  color: #000;
+  background-color: blue;
+  font-size: 6rem;
+  box-shadow: 0 0 5px rgba(0, 178, 255, 1), 0 0 10px rgba(0, 178, 255, 1),
+    0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(38, 104, 127, 1),
+    0 0 80px rgba(38, 104, 127, 1), 0 0 90px rgba(38, 104, 127, 1),
+    0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1),
+    0 0 180px rgba(38, 104, 127, 1);
+}
+
 /*Menu para moviles*/
 @media screen and (max-width: 550px) {
   #logo {
