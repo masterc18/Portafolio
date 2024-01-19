@@ -3,6 +3,16 @@
   margin: 0;
 }
 
+h1,
+h2 {
+  color: #000;
+  text-shadow: 0 0 5px rgba(0, 178, 255, 1), 0 0 10px rgba(0, 178, 255, 1),
+    0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(38, 104, 127, 1),
+    0 0 80px rgba(38, 104, 127, 1), 0 0 90px rgba(38, 104, 127, 1),
+    0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1),
+    0 0 180px rgba(38, 104, 127, 1);
+}
+
 @keyframes neonefecto {
   50% {
     text-shadow: 0 0 10px rgba(0, 178, 255, 1), 0 0 20px rgba(0, 178, 255, 1),
@@ -75,7 +85,7 @@ body {
     0 0 100px rgba(38, 104, 127, 1), 0 0 140px rgba(38, 104, 127, 1),
     0 0 180px rgba(38, 104, 127, 1);
 }
-.biography h1,h2,
+.biography h1,
 p {
   position: relative;
   display: flex;
